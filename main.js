@@ -15,13 +15,14 @@ function initialize(){
   computer.hand = player.hand.splice(deck.decklist.length / 2);
 }
 
-function gameManager(){
+function gameManager(simulate = false){
   var round = 0;
   let cards = [];
   let wars = 0;
   while(true){
-    // Comment this line out if you dont want to sit through flips
-    prompt('Press Enter to Flip a card!\n');
+    if( simulate == false ){
+      prompt('Press Enter to Flip a card!\n');
+     }
 
     console.clear();
     console.log(`\x1b[93mROUND ${++round}\x1b[0m\n`)
@@ -47,15 +48,20 @@ function gameManager(){
       };
     }
 
-    if(player.hand.length <= 0 && computer.hand.lenght <= 0){
+    if(player.hand.length <= 0 && computer.hand.lenght <= 0 || round >= 1000){
       gameOver('TIED', round, wars);
-      return('TIED'); };
+      return('TIED');
+    };
+
     if(player.hand.length <= 0 ){
       gameOver('LOST', round, wars);
-      return('LOST'); };
+      return('LOST');
+    };
+
     if(computer.hand.length <= 0 ){
       gameOver('WON', round, wars);
-      return('WON'); };
+      return('WON');
+    };
 
     console.log(`\nPlayer cards remaining: ${player.hand.length} | Computer cards remaining: ${computer.hand.length}\n`);
   }
@@ -79,6 +85,11 @@ function mainMenu(){
       console.clear();
       initialize();
       let end_state = gameManager();
+      end_state === 'WON' ? stats.won++ : end_state === 'LOST' ? stats.lost++ : stats.tied++;
+    } else if ( response === 'S' ){
+      console.clear();
+      initialize();
+      let end_state = gameManager(true);
       end_state === 'WON' ? stats.won++ : end_state === 'LOST' ? stats.lost++ : stats.tied++;
     } else if( response === 'X' ) {
       break;
