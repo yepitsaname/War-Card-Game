@@ -48,7 +48,7 @@ function gameManager(simulate = false){
       };
     }
 
-    if(player.hand.length <= 0 && computer.hand.lenght <= 0 || round >= 1000){
+    if(player.hand.length <= 0 && computer.hand.length <= 0 || round >= 1000){
       gameOver('TIED', round, wars);
       return('TIED');
     };
@@ -62,6 +62,12 @@ function gameManager(simulate = false){
       gameOver('WON', round, wars);
       return('WON');
     };
+
+    if(cards.includes(undefined)){
+      gameOver('TIED', round, wars);
+      return('TIED');
+    }
+      
 
     console.log(`\nPlayer cards remaining: ${player.hand.length} | Computer cards remaining: ${computer.hand.length}\n`);
   }
