@@ -1,0 +1,212 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.0.9">
+  <diagram name="Page-1" id="w9bj289T6TOkk4ie-54E">
+    <mxGraphModel dx="2382" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="anDsvR2QcBUNCINx-AgC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="anDsvR2QcBUNCINx-AgC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-1" value="Player (HUMAN) Starts &#39;NEW GAME&#39;" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="60" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-2" target="anDsvR2QcBUNCINx-AgC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-2" value="Shuffle and pass a new deck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-5" target="anDsvR2QcBUNCINx-AgC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-5" value="Deal 26 cards to both players &#39;face down&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-7" target="anDsvR2QcBUNCINx-AgC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-7" value="Both players flip over the top card of their deck and places it on the stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540.5" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-10" target="anDsvR2QcBUNCINx-AgC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-10" value="Evaluate each card and determine who wins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-14" target="anDsvR2QcBUNCINx-AgC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-14" value="Each player places 1 card from their deck face down on the stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-20" target="anDsvR2QcBUNCINx-AgC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-33" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-27">
+          <mxGeometry x="0.0333" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-20" target="anDsvR2QcBUNCINx-AgC-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-51" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-50">
+          <mxGeometry x="-0.3683" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="-207" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-20" value="Do both players&lt;div&gt;still have cards?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="530" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-21" target="anDsvR2QcBUNCINx-AgC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-24" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-23">
+          <mxGeometry x="-0.1158" y="3" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-21" target="anDsvR2QcBUNCINx-AgC-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-36">
+          <mxGeometry x="-0.2428" y="4" relative="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-21" value="Is there a Tie?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-26" target="anDsvR2QcBUNCINx-AgC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-28">
+          <mxGeometry x="-0.5333" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-26" target="anDsvR2QcBUNCINx-AgC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-31" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-30">
+          <mxGeometry x="-0.1617" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-26" value="Is this the&lt;div&gt;third time&lt;/div&gt;&lt;div&gt;in this loop?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-35" target="anDsvR2QcBUNCINx-AgC-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-43" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-40">
+          <mxGeometry x="-0.4515" y="3" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-35" target="anDsvR2QcBUNCINx-AgC-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-42" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-41">
+          <mxGeometry x="-0.3498" y="-4" relative="1" as="geometry">
+            <mxPoint x="-7" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-35" value="Did&lt;div&gt;Player (HUMAN)&lt;/div&gt;&lt;div&gt;win?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540.5" y="690" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-38" target="anDsvR2QcBUNCINx-AgC-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-38" value="Place the stack on the bottom of Player (COMP)&#39;s deck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-39" target="anDsvR2QcBUNCINx-AgC-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-39" value="Place the stack on the bottom of Player (HUMAN)&#39;s deck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-44" target="anDsvR2QcBUNCINx-AgC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="920" />
+              <mxPoint x="830" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-44" target="anDsvR2QcBUNCINx-AgC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-64" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-63">
+          <mxGeometry x="-0.285" y="1" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-44" value="Do both players&lt;div&gt;still have cards?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540.5" y="860" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-62" target="anDsvR2QcBUNCINx-AgC-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-60">
+          <mxGeometry x="0.096" y="-3" relative="1" as="geometry">
+            <mxPoint x="-20" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="898" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-55" value="Declare TIE" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-62" target="anDsvR2QcBUNCINx-AgC-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-68" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-67">
+          <mxGeometry x="-0.4055" y="-2" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-62" value="Are both players&lt;div&gt;out of cards?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1010" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-66" target="anDsvR2QcBUNCINx-AgC-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-72" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-71">
+          <mxGeometry x="-0.2039" y="3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anDsvR2QcBUNCINx-AgC-66" target="anDsvR2QcBUNCINx-AgC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-74" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="anDsvR2QcBUNCINx-AgC-73">
+          <mxGeometry x="0.6246" y="4" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-66" value="Is Player&lt;div&gt;(HUMAN) out of cards?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1180" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-69" value="Declare Player (COMP) WIN" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anDsvR2QcBUNCINx-AgC-70" value="Declare Player (HUMAN) WIN" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
