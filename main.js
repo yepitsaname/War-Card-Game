@@ -20,7 +20,8 @@ function gameManager(){
   let cards = [];
   let wars = 0;
   while(true){
-    // prompt('Press Enter to Flip a card!\n');
+    // Comment this line out if you dont want to sit through flips
+    prompt('Press Enter to Flip a card!\n');
 
     console.clear();
     console.log(`\x1b[93mROUND ${++round}\x1b[0m\n`)
